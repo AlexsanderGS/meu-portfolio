@@ -1,0 +1,167 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1E1E1E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navigation {
+    background-color: #1E1E1E;
+    color: white;
+    height: 50px;
+}
+
+.navigation ul {
+    margin-top: 0;
+    list-style: none;
+    padding-left: 0;
+    text-align: right;
+    height: 50px;
+    font-size: 19px;
+}
+
+.navigation li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 50px;   
+}
+
+.home {
+    color: white;
+}
+
+.home span {
+    color: #7E74F1;
+}
+
+.home div {
+    display: inline-block;
+    height: 650px;
+}
+
+.profile-pic {
+    width: 40%;
+    text-align: center;
+}
+
+.profile-pic img {
+    width: 400px;
+    border-radius: 400px;
+    margin-top: 100px;
+}
+
+.profile-title {
+    vertical-align: top;
+    width: 59%
+}
+
+.profile-title h1 {
+    font-size: 58px;
+    margin-top: 300px;
+    text-align: left;
+
+}
+
+.profile-title h2 {
+    font-size: 18px;
+    margin-right: 100px;
+    margin-top: -25px;
+}
+
+.main {
+    padding: 80px 180px 80px 100px;
+}
+
+.main h1 {
+    color: white;
+    font-weight: normal;
+}
+
+.main h2 {
+    color: #7E74F1;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.main h3 {
+    color: whitesmoke;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.main p {
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+    
+}
+
+.navigation-path {
+    list-style: none;
+    padding-left: 0;
+    color: gray;
+}
+
+.navigation-path li {
+    display: inline-block;
+}
+
+.social-icons {
+    width: 30px;
+}
+
+.miniature {
+    width: 320px;
+    height: 320px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.miniature a {
+    text-decoration: none;
+}
+
+.black-box {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    padding-top: 100px;
+}
+
+.black-box:hover {
+    opacity: 0.8;
+}
+
+.black-box-text {
+    text-align: center;
+}
+
+.black-box-text h1 {
+    font-size: 16px;
+    color: #F27609;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.black-box-text h2 {
+    font-size: 16px;
+    color: whitesmoke; 
+    text-transform: none;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.project-pic {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
