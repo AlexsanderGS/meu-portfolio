@@ -46,6 +46,12 @@ body {
     display: none;
 }
 
+.navigation li.menu-icon:hover {
+    color: #7E74F1;
+    cursor: pointer;
+}
+
+
 .home {
     color: white;
 }
@@ -229,6 +235,9 @@ body {
 
 .navigation li {
     display: none;
+
+    animation-name: profile-navigation;
+    animation-duration: 0s;
         
 }
 
@@ -294,6 +303,24 @@ body {
 
 .black-box {
     opacity: 0.8;
+}
+
+.menujs {
+    height: auto;
+}
+
+.menujs ul {
+    text-align: center;
+    height: auto;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.menujs li{
+    display: block;
+    border-bottom: solid gray 1px;
+    width: 100%;
+    padding: 0;
 }
 
 
