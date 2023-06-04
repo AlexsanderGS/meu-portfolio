@@ -30,7 +30,7 @@ body {
     line-height: 50px;  
     
     animation-name: profile-navigation;
-    animation-duration: 4s;
+    animation-duration: 2s;
 }
 
 .navigation a {
@@ -90,7 +90,8 @@ body {
 }
 
 .profile-title h2 {
-    font-size: 18px;
+    color: #BFBDC1;
+    font-size: 17px;
     margin-right: 100px;
     margin-top: -25px;
 }
@@ -222,4 +223,78 @@ body {
 @keyframes content {
     0% {opacity: 0; transform: translate(-20px,0px)}
     100% {opacity: 1; transform: translate(0px,0px)}
+}
+
+@media (max-width: 1000px) {
+
+.navigation li {
+    display: none;
+        
+}
+
+.navigation li.menu-icon {
+     display: inline-block;
+}
+
+.home div {
+    display: block;
+    height: auto;
+}
+
+.profile-pic {
+    width: 100%;
+
+}
+
+.profile-pic img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 80%;
+}
+
+
+.profile-title {
+    text-align: center;
+    width: 100%;
+}
+
+.profile-title h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 20px;  
+}
+
+.profile-title h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main {
+    padding: 10px 5% 40px 5%;
+
+}
+
+.main p {
+    text-align: left;
+    line-height: 30px;
+}
+
+.caminho li {
+    font-size: 14px;
+}
+
+.miniature {
+    max-width: 100%;
+    background-size: auto 100%;
+}
+
+.black-box {
+    opacity: 0.8;
+}
+
+
 }
