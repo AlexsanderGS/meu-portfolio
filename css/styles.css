@@ -3,10 +3,14 @@ html, body {
     padding: 0;
 }
 
+
+
 body {
     background-color: #1E1E1E;
     font-family: 'Montserrat', sans-serif;
 }
+
+
 
 .navigation {
     background-color: #1E1E1E;
@@ -52,6 +56,8 @@ body {
 }
 
 
+
+
 .home {
     color: white;
 }
@@ -64,6 +70,9 @@ body {
     display: inline-block;
     height: 650px;
 }
+
+
+
 
 .profile-pic {
     width: 40%;
@@ -102,6 +111,9 @@ body {
     margin-top: -25px;
 }
 
+
+
+
 .main {
     padding: 80px 180px 80px 100px;
 
@@ -110,34 +122,42 @@ body {
 }
 
 .main h1 {
-    color: white;
+    color: #7E74F1;
     font-weight: normal;
 }
 
 .main h2 {
-    color: #7E74F1;
+    color: white;
     font-size: 18px;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: normal;
 }
 
 .main h3 {
-    color: whitesmoke;
-    font-size: 14px;
-    text-transform: uppercase;
+    color: #F0FFFF;
+    font-size: 16px;
+    text-transform: none;
 }
 
 .main p {
-    color: white;
+    color: whitesmoke;
     font-size: 14px;
     text-align: justify;
-    
 }
+
+.main img {
+    width: 180px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
 
 .navigation-path {
     list-style: none;
     padding-left: 0;
-    color: gray;
+    color: whitesmoke;
 }
 
 .navigation-path li {
@@ -145,16 +165,29 @@ body {
 }
 
 .navigation-path a {
-    color: gray;
+    color: whitesmoke;
 }
 
-.social-icons {
+
+
+#icons {
+    margin: auto;
+    margin-bottom: 15px;
     width: 30px;
 }
 
+#git {
+    margin: auto;
+    margin-bottom: 15px;
+    width: 45px;
+}
+
+
+
+
 .miniature {
-    width: 320px;
-    height: 320px;
+    width: 300px;
+    height: 300px;
     display: inline-block;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -165,6 +198,8 @@ body {
 .miniature a {
     text-decoration: none;
 }
+
+
 
 .black-box {
     width: 100%;
@@ -209,6 +244,9 @@ body {
     color: #7E74F1;
     text-decoration: none;
 }
+
+
+
 
 @keyframes profile-home {
     0% {opacity: 0; transform: translate(0px,20px)}
